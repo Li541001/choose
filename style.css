@@ -9,16 +9,46 @@ body{
     justify-content: center;
     height: 100vh;
     width: 100%;
-    gap:10px;
+    gap:10vw;
+    background-color: rgb(253, 246, 237);
 }
-.link{
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    gap:2vh;
+}
+div div{
+    background-color:#fff;
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+    transition: 1s;
+    
+}
+div div:hover{
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15),
+                0 0 0 3px #333,
+                0 0 0 8px #fff;
+}
+div div img{
+    width: 25vh;
+}
+
+
+div p{
     font-size: 50px;
     font-weight: bolder;
     text-decoration: none;
     color: #333;
     transition: 0.5s;
 }
-.link:hover{
-    color: blue;
-
+.link{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 40vh;
+    border-radius: 50%;
 }
