@@ -12,6 +12,19 @@ body{
     gap:10vw;
     background-color: rgb(253, 246, 237);
 }
+body h4{
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+}
+body h5{
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20px;
+}
+
 
 div{
     display: flex;
