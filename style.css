@@ -67,7 +67,7 @@ div p{
     border-radius: 50%;
 }
 
-@media(max-width:600px){
+@media(max-width:680px){
     body{
         flex-direction: column;
     }
