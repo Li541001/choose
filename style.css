@@ -75,14 +75,14 @@ div p{
         position: absolute;
         background-color: transparent;
         width: 100%;
-        height: 30vh;
+        height: 22vh;
         border-radius: 50%;
     }
     div div{
-        height: 30vh;
-        width: 30vh;
+        height: 22vh;
+        width: 22vh;
     }
     div div img{
-        width: 20vh;
+        width: 15vh;
     }
 }
